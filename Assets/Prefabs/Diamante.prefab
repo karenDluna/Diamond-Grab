@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 553125ae17f55d147b12d05a54b2ad2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitiy: 4
+  velocitiy: 5
 --- !u!114 &4152928725116495600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a99ce6968efc84f849a0a6eefa22de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Vida: {fileID: 0}
   Limite: {fileID: 7431526013034294606, guid: c16cc1a6899b02a41b96b3a0e9f01c25, type: 3}
   Carrito: {fileID: 6972687469756621612, guid: 9b4b12b71a78d5c4ebe5d0273e170a3e, type: 3}
 --- !u!50 &5738706153816227359

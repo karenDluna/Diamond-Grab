@@ -15,6 +15,6 @@ public class DiamanteM : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += Vector3.down * Random.Range(4f,10f) * Time.deltaTime;
+        transform.position += Vector3.down * Random.Range(6f,12f) * Time.deltaTime;
     }
 }
