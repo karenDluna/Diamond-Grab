@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Lossing.unity
+    guid: 030a86f2f1eb83443a7b620233ed036a
+  - enabled: 1
+    path: Assets/Scenes/Wining.unity
+    guid: 4426dc0545807eb45a89e3667eb25079
   m_configObjects: {}

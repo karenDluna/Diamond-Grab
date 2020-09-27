@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Destruir : MonoBehaviour
 {
+    
+    public GameObject Limite;
+    public GameObject Carrito;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +21,16 @@ public class Destruir : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
+         if (collision.gameObject.tag == "Carrito")
+        {
+            Score.score++;
+            Destroy(gameObject);
+        }
+
+        if (collision.gameObject.tag == "LimiteInferior")
+        {
+            Vidas.vida--;
+            Destroy(gameObject);
+        }
     }
 }
